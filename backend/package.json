@@ -4,6 +4,9 @@
   "description": "Project Management Tool Backend API",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
