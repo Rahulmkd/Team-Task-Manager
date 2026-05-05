@@ -74,7 +74,7 @@ export default function DashboardPage() {
       <div>
         <h2 className="font-display text-2xl font-bold text-foreground">
           Good {new Date().getHours() < 12 ? "morning" : new Date().getHours() < 18 ? "afternoon" : "evening"},{" "}
-          {user?.name?.split(" ")[0]} 👋
+          {user?.name?.split(" ")[0]}
         </h2>
         <p className="text-muted-foreground text-sm mt-1">
           Here's what's happening across your projects today.
